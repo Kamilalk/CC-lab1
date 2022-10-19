@@ -1,11 +1,11 @@
 body {
-    background-color: #f4f4f4;
+    background-color: pink;
     margin-top: 50px;
     font-family: 'Lato';
 }
 
 .item {
-    background-color: white;
+    background-color: palevioletred;
     padding: 15px;
     margin-bottom: 15px;
     border: transparent;
@@ -37,3 +37,14 @@ body {
 button:focus {
     border: 1px solid #333;
 }
+
+div {
+    display: flex;
+    justify-content: center;
+    height: 800px;
+  }
+  
+img {
+    width: 60%;
+    height: 500px;
+  }
